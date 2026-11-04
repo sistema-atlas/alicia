@@ -44,6 +44,8 @@ Formatos de aprovação: `references/_comum/aprovacao.md`. Para achar um contato
 
 Pedido grande (várias skills): mostre o plano inteiro numerado e peça um sim para o plano. As ações de nível reforçado (mensagem, apagar, dinheiro, massa, publicar, usuários) pedem um sim próprio na hora de executar, mesmo com o plano aprovado.
 
+Antes do plano, se faltar contexto que muda o resultado, pergunte em caixas de opção como em `perguntas.md` (sem a ferramenta de caixas, uma pergunta só com opções numeradas). Não pergunte o que dá para ler na conta.
+
 ## 6. Testes
 
 - Contato, oportunidade ou registro de teste criado pelo assistente recebe a tag `teste-assistente` e o nome começa com `TESTE`.

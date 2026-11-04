@@ -12,7 +12,7 @@ Como transformar o que o cliente diz em skill e, nos pedidos grandes, em plano.
 | "cria um campo", "preciso guardar CPF", "valor personalizado", "organiza os campos" | atlas-campos-e-dados | Mudar opção de campo existente muda o CRM inteiro |
 | "monta meu funil", "cria a etapa", "move o card", "por que esse negócio está parado", "motivo de perda" | atlas-funil-e-vendas | |
 | "cria um formulário", "pesquisa de satisfação", "quiz", "o formulário não está salvando no contato" | atlas-formularios | Criar e editar costuma ser navegador |
-| "página de captura", "site", "landing page", "post no blog", "domínio" | atlas-sites-e-blog | Construtor de páginas é navegador |
+| "página de captura", "site", "landing page", "post no blog", "domínio", "tirar o site da agência", "migrar meu site" | atlas-sites-e-blog | Construtor de páginas é navegador |
 | "pixel do Facebook", "UTM", "link rastreável", "de onde vêm meus leads" | atlas-rastreamento | |
 | "automação", "fluxo", "quando o lead entrar, faz tal coisa", "follow-up automático", "a automação não disparou" | atlas-automacoes | Publicar automação é ação reforçada |
 | "agenda", "link de agendamento", "horário de atendimento", "lembrete de consulta", "remarcar" | atlas-agenda | |

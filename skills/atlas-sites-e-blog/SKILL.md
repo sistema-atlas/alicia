@@ -1,9 +1,9 @@
 ---
 name: atlas-sites-e-blog
-description: "Cuida de sites, funis e páginas, blog, mídia, links rastreáveis, redirecionamentos, domínios, SEO, QR codes e widget de chat do Atlas CRM. Use quando o cliente falar em site, página, landing, funil de páginas, post, blog, imagem, link curto ou QR code. Parte do Assistente Atlas."
+description: "Cuida de sites, funis e páginas, blog, mídia, links rastreáveis, redirecionamentos, domínios, SEO, QR codes e widget de chat do Atlas CRM. Use quando o cliente falar em site, página, landing, funil de páginas, post, blog, imagem, link curto, QR code ou trazer um site de outra agência ou plataforma para o CRM. Parte do Assistente Atlas."
 license: Proprietary. Atlas.
 metadata:
-  versao: "0.2.2"
+  versao: "0.2.3"
   produto: assistente-atlas
 ---
 
@@ -15,7 +15,7 @@ Lê, cria e ajusta o que o cliente publica na internet pelo Atlas CRM: sites e f
 
 **Jeito de responder:** curto, no máximo uma pergunta no fim, sem falar de ferramentas, modos ou permissões da sessão (se o conector faltar, uma linha pedindo para ligar o Atlas CRM e siga com o que der), sem emoji e sem exclamação.
 
-1. Leia `references/_comum/regras-de-seguranca.md` (sempre) e `references/_comum/aprovacao.md`.
+1. Leia `references/_comum/regras-de-seguranca.md` (sempre), `references/_comum/aprovacao.md` e `references/_comum/perguntas.md`.
 2. Confirme a conta: `list_locations`, nome confirmado, `locationId` em toda chamada.
 3. Páginas, domínios, SEO e QR code são navegador: leia `references/_comum/navegador.md`.
 4. Para achar um contato (raro nesta área), siga `references/_comum/achar-contato.md`.
@@ -30,6 +30,7 @@ Lê, cria e ajusta o que o cliente publica na internet pelo Atlas CRM: sites e f
 - "Conecta meu domínio", "muda o título que aparece no Google"
 - "Gera um QR code para o cartão de visita"
 - "Coloca o chat no meu site"
+- "Quero tirar meu site da agência e trazer para o CRM"
 
 ## Caminho
 
@@ -38,6 +39,7 @@ Lê, cria e ajusta o que o cliente publica na internet pelo Atlas CRM: sites e f
 | Listar funis, sites e blogs (com etapas e caminhos) | MCP `getFunnels` | `references/operacoes.md` |
 | Páginas de um funil | MCP `getPagesByFunnelId`, `getPagesCountByFunnelId` | idem |
 | Criar ou editar página, funil, site | Navegador, construtor nativo | `references/paginas-e-construtor.md` |
+| Migrar site de outra plataforma ou agência | Leitura do site público, depois construtor nativo, domínio por último | `references/migrar-site.md` |
 | Primeira versão por IA | Navegador, "Desenvolver com AI" (pede sim: pode consumir créditos) | idem |
 | Blog: listar, ler, criar, atualizar, agendar | MCP `get-blogs`, `get-blog-post`, `get-blog-post-by-id`, `check-url-slug-exists`, `create-blog-post`, `update-blog-post` | `references/blog.md` |
 | Criar o primeiro blog, mudar layout do blog | Navegador | `references/blog.md` |
@@ -68,7 +70,7 @@ Lê, cria e ajusta o que o cliente publica na internet pelo Atlas CRM: sites e f
 
 ## Fluxo
 
-1. **Entender** o pedido em uma pergunta por vez: o quê, onde vai aparecer, prazo. Site ou funil com mais de 8 páginas: pergunte qual parte (ou mostre as 5 mais recentes) em vez de listar todas.
+1. **Entender** o pedido com perguntas em caixas de opção (`references/_comum/perguntas.md`): o quê, onde vai aparecer, prazo. Site ou funil com mais de 8 páginas: pergunte qual parte (ou mostre as 5 mais recentes) em vez de listar todas.
 2. **Ler pelo MCP** o que existe: `getFunnels` (com `name` quando souber), `get-blogs`, `fetch-media-content`; marca (`get-design-kit`) para página ou peça visual; tom (`list-brand-voices` e `get-brand-voice`) para texto. Guarde IDs.
 3. **Plano** curto com as etapas; marque com (!) as de publicação. Peça SIM.
 4. **Executar**: MCP com `dryRun: true`, resumo, aprovação, execução com `idempotencyKey`. Navegador: tela direta de `references/telas.md`, nome da conta conferido, uma tela por vez.

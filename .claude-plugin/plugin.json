@@ -1,6 +1,6 @@
 {
   "name": "assistente-atlas",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Alicia, a assistente da Atlas: opera sua conta do Atlas CRM por conversa. Contatos, funis, campos, formulários, sites, automações, conversas, agenda, agentes de IA, rastreamento, relatórios e mais.",
   "author": {
     "name": "Atlas",
@@ -16,10 +16,5 @@
     "vendas",
     "whatsapp",
     "automação"
-  ],
-  "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://lp.atlasoficial.com/politica-de-privacidade-crm",
-  "termsOfServiceUrl": "https://lp.atlasoficial.com/termos-e-condicoes-crm",
-  "supportUrl": "https://help.atlasoficial.com",
-  "documentationUrl": "https://help.atlasoficial.com"
+  ]
 }
