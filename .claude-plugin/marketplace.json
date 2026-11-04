@@ -1,0 +1,15 @@
+{
+  "name": "atlas",
+  "owner": {
+    "name": "Atlas",
+    "email": "contato@atlasoficial.com"
+  },
+  "plugins": [
+    {
+      "name": "assistente-atlas",
+      "source": "./",
+      "description": "Alicia, a assistente da Atlas, para operar o Atlas CRM pelo Claude ou pelo Codex."
+    }
+  ],
+  "description": "Plugins oficiais da Atlas para o Claude e o Codex."
+}
