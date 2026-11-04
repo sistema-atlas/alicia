@@ -27,7 +27,7 @@ Legenda: **(conferido em 03/11/2026)** quando a tela foi vista no navegador na c
 ### Pausar ou cancelar campanha agendada
 1. Marketing > E-mails > Campanhas (`marketing/emails/scheduled`).
 2. Ache a campanha (status agendado ou em andamento).
-3. Procure a ação de pausar ou cancelar no menu da campanha (a conferir no navegador: não foi confirmado que existe para todo tipo de campanha; em 04/11/2026 a conta Atlas não tinha campanha, e criar uma agendada só para ver exigiria agendar envio). Se não existir, diga isso ao cliente sem prometer.
+3. Abra o menu **Ações** (três pontos no fim da linha) e procure a ação de pausar ou cancelar. O menu de uma campanha agendada ainda não foi visto: o CRM não deixa agendar com 0 destinatários (o botão **Programar** não faz nada e a campanha fica como **Rascunho**), então não deu para agendar uma de teste sem alcançar ninguém. Num **Rascunho** o menu Ações mostra só: **Pré-visualizar campanha**, **Mover para a pasta**, **Renomear**, **Clonar**, **Arquivar Campanha**, **Excluir** (sem pausar, cancelar ou reagendar) (conferido em 04/11/2026 na conta Demo). Se a ação não aparecer na campanha agendada, diga isso ao cliente sem prometer.
 4. Pausar protege: pode fazer com aprovação simples e avisar. Confira depois com `list-email-campaigns` (`status: paused` ou `cancelled`).
 
 ### Domínio de envio
