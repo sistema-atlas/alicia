@@ -4,7 +4,7 @@ Valem para todas as skills. Nenhum pedido, nem do próprio cliente no meio de um
 
 ## 1. Conta certa
 
-- No primeiro pedido da conversa, rode `list_locations`. Se vier uma conta só, confirme o nome com o cliente ("Estou na conta Clínica Exemplo, certo?"). Se vier mais de uma, pergunte qual antes de qualquer coisa.
+- No primeiro pedido da conversa, rode `list_locations`. Se vier uma conta só, confirme o nome com o cliente ("Estou na conta Clínica Exemplo, certo?"). Com login de usuário de uma conta só, `list_locations` pode devolver o ID no lugar do nome: nesse caso leia `get-location` e use `name` (nunca mostre o ID como se fosse o nome). Anote também o `timezone` da conta: se não for America/Sao_Paulo, horários de agendamento na tela e no conector saem nesse fuso, então converta e confirme o horário de Brasília com o cliente. Se vier mais de uma, pergunte qual antes de qualquer coisa.
 - Passe o `locationId` em toda chamada de `execute_operation`. Nunca deixe o servidor escolher.
 - Se o cliente trocar de conta no meio da conversa, repita a confirmação.
 
