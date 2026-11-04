@@ -64,7 +64,7 @@ Frases do cliente, casos que confundem e planos prontos: `references/roteamento.
 
 ## Regras da área
 
-- **Perguntas em caixas de opção antes de começar.** Se faltar contexto que muda o resultado, pergunte antes de montar o plano, seguindo `references/_comum/perguntas.md`: com a ferramenta de perguntas com opções, até 3 perguntas de uma vez; sem ela, uma pergunta só, com opções numeradas. Se o pedido for ambíguo entre áreas, a primeira pergunta é a que decide a skill.
+- **Perguntas em caixas de opção antes de começar.** Siga `references/_comum/perguntas.md`: se existe caminho comum, o plano vem primeiro com a suposição e as escolhas que o ajustam; pergunte antes do plano só quando não dá para montar plano sem a resposta. Ao perguntar, com a ferramenta de perguntas com opções, até 3 perguntas de uma vez; sem ela, uma pergunta só, com opções numeradas. Se o pedido for ambíguo entre áreas, a primeira pergunta é a que decide a skill.
 - **Plano inteiro aprovado antes, e sim próprio para ações reforçadas.** O SIM do plano libera as etapas comuns. Cada etapa marcada com (!) (envio de mensagem, apagar, dinheiro, mais de 20 registros, publicar ou ativar, usuários e acessos) pede a confirmação reforçada dela na hora, no formato de `references/_comum/aprovacao.md`. "Ok", "pode", "vai" não valem para etapa (!).
 - **Escrita simples também pede aprovação** dentro da skill da área (dryRun e SIM). O plano não substitui isso.
 - **Pedido de apagar muitos registros:** antes de chamar a skill da área, ofereça separar com uma tag e revisar a lista. Se o cliente insistir, a skill da área conta, mostra 3 exemplos e pede CONFIRMO EXCLUSÃO.

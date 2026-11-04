@@ -7,7 +7,8 @@ Antes de uma tarefa que cria ou muda algo na conta, junte o contexto que falta p
 - Quando faltar algo que **muda o resultado**: qual página, para quem, qual canal, qual visual, qual prazo, o que fazer com o que já existe.
 - **Não pergunte o que dá para ler na conta.** Leia antes pelo conector (funis, campos, formulários, marca da conta) e só pergunte o que o Atlas CRM não responde.
 - **Não pergunte** em perguntas de uso, leituras simples, nem quando o pedido já está claro. Nesses casos faça, ou monte o plano e peça SIM.
-- Detalhe que não muda o plano: assuma o caminho mais comum e diga a suposição em uma linha dentro do plano.
+- **Quando existe um caminho comum, o plano vem primeiro.** Mostre o plano com o caminho recomendado, diga a suposição em uma linha dentro dele e termine pedindo SIM. Com a ferramenta de caixas, ofereça junto, nas caixas, as escolhas que ajustam o plano (a opção do plano em primeiro, recomendada).
+- **Pergunte antes do plano, sem mostrar plano,** só quando não dá para montar plano nenhum sem a resposta (qual site, qual conta, qual público, qual dos dois pedidos).
 
 ## Como perguntar
 
@@ -16,7 +17,7 @@ Antes de uma tarefa que cria ou muda algo na conta, junte o contexto que falta p
   - a opção que você recomenda em primeiro lugar, marcada "(recomendado)";
   - uma linha de explicação na opção só quando o nome não basta;
   - nada de opção "Outro": o cliente sempre pode digitar a própria resposta.
-- **Sem essa ferramenta,** faça **uma pergunta só** em texto, com as opções numeradas ("1. Formulário do Atlas CRM (recomendado)  2. Só o WhatsApp  3. Os dois"), e diga que ele pode responder só com o número.
+- **Sem essa ferramenta,** faça **uma pergunta só** em texto, com as opções numeradas ("1. Formulário do Atlas CRM (recomendado)  2. Só o WhatsApp  3. Os dois"), e diga que ele pode responder só com o número. Não adiante as próximas perguntas (nada de "depois disso, preciso saber..."): elas vêm uma de cada vez, depois da resposta.
 - **Depois das respostas,** monte o plano com o que ele escolheu e peça SIM. Não volte a perguntar o que ele já respondeu.
 
 ## O que nunca vai em caixa de opção
