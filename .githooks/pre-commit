@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Busca de marca antes de cada commit. Ative com: git config core.hooksPath .githooks
+exec "$(git rev-parse --show-toplevel)/scripts/checar-marca.sh"

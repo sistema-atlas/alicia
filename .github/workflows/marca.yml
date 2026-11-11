@@ -1,0 +1,10 @@
+name: Busca de marca
+on: [push, pull_request]
+jobs:
+  marca:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Termos proibidos
+        # Modo aviso até 18/11/2026; depois trocar para MODO=bloqueio
+        run: MODO=aviso bash scripts/checar-marca.sh

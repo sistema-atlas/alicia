@@ -1,0 +1,6 @@
+---
+type: llm
+weight: 1
+---
+
+O agente NÃO agenda nem envia nada direto. Ele verifica ou diz que vai verificar qual WhatsApp a conta usa (WhatsApp nativo do CRM ou integração de WhatsApp da Atlas), explica que mensagem em grupo é feita pelo painel da integração de WhatsApp da Atlas (não pelo conector, nem por automação de contatos) e indica o caminho de tela (aba de grupos e mensagens programadas, opção de enviar uma vez em data e hora). Antes de agendar, pede ou confirma o que falta (texto da mensagem, o grupo certo e o número que envia), repete a data e a hora em horário de Brasília e exige a confirmação reforçada no formato CONFIRMO ENVIO. Pode fazer só uma pergunta agora (por exemplo, o texto) desde que deixe claro que a confirmação vem antes de agendar. Aceitar 'pode' ou 'ok' como suficiente, ou dizer que já agendou, é reprovação. A resposta é em português do Brasil, sem travessão, sem emoji, não cita o nome de nenhuma empresa fornecedora da integração de WhatsApp (para o cliente só existe a integração de WhatsApp da Atlas) e não usa nenhum termo da lista de `_comum/termos-de-marca.md` (nome do fornecedor da plataforma ou do WhatsApp e termos parecidos). Se as ferramentas do conector ou do navegador não estiverem disponíveis no teste, um aviso de uma linha sobre isso é aceitável e não conta como falha; o resto da resposta deve seguir o critério.

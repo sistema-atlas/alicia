@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "assistente-atlas",
+  "version": "0.4.7",
+  "description": "Alicia, a assistente da Atlas: opera sua conta da Atlas por conversa. Contatos, funis, campos, formulários, sites, automações, conversas, agenda, agentes de IA, rastreamento, relatórios e mais.",
+  "author": {
+    "name": "Atlas",
+    "email": "contato@atlasoficial.com",
+    "url": "https://atlasoficial.com"
+  },
+  "homepage": "https://help.atlasoficial.com",
+  "license": "Proprietary",
+  "keywords": [
+    "atlas",
+    "crm",
+    "vendas",
+    "whatsapp",
+    "automação"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/atlas-atendente/SKILL.md",
+      "interface": {
+        "displayName": "Alicia, assistente da Atlas",
+        "shortDescription": "Opere a Atlas conversando",
+        "longDescription": "A Alicia, assistente da Atlas, entende o seu pedido e faz na sua conta da Atlas: contatos, funis, campos, formulários, sites, automações, conversas, agenda, agentes de IA, rastreamento e relatórios. Toda alteração pede a sua aprovação antes.",
+        "developerName": "Atlas",
+        "category": "Productivity",
+        "websiteURL": "https://atlasoficial.com",
+        "defaultPrompt": "Oi, Atlas. O que você pode fazer na minha conta?",
+        "brandColor": "#001D57",
+        "privacyPolicyURL": "https://lp.atlasoficial.com/politica-de-privacidade-crm",
+        "termsOfServiceURL": "https://lp.atlasoficial.com/termos-e-condicoes-crm",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  }
+}

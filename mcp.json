@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "atlas-crm": {
+      "type": "streamable-http",
+      "url": "https://services.leadconnectorhq.com/mcp/openai/v2/",
+      "extensions": { "com.openai": { "auth": { "type": "oauth" } } }
+    }
+  }
+}
