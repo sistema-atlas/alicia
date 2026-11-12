@@ -87,7 +87,7 @@ Pasta do repositorio (no computador do Lucca, em `$HOME/mnt/Atlas-CRM`):
 
 - Rode `scripts/checar-marca.sh` antes de commitar ou entregar qualquer coisa. Ela procura os termos de `_comum/termos-de-marca.md` no repositório inteiro.
 - Achou: troque o termo pela regra geral ("o fornecedor da plataforma", "qualquer link que não seja da Atlas") ou pare e pergunte ao Lucca. Nunca adicione exceção na lista sozinho.
-- Modo aviso até 18/11/2026; depois, `MODO=bloqueio` no gancho do git e na verificação do GitHub.
+- Modo aviso até 17/11/2026. A partir de 18/11/2026 o próprio script bloqueia (sai com erro), no gancho do git e na verificação do GitHub, sem precisar trocar nada.
 - Entregou: diga o resultado da busca junto com o resto.
 
 ## 7. Bateria de testes (fabrica/baterias/<skill>.md)

@@ -6,5 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Termos proibidos
-        # Modo aviso até 18/11/2026; depois trocar para MODO=bloqueio
-        run: MODO=aviso bash scripts/checar-marca.sh
+        # Aviso até 17/11/2026; a partir de 18/11/2026 o script bloqueia sozinho
+        run: bash scripts/checar-marca.sh

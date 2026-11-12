@@ -3,13 +3,18 @@
 # em tudo que vai ser publicado. Exceções aprovadas ficam no mesmo arquivo.
 #
 # Uso: scripts/checar-marca.sh [pasta]
-# MODO=aviso    mostra o que achou e sai com 0 (padrão até 18/11/2026)
-# MODO=bloqueio mostra o que achou e sai com 1
+# MODO=aviso    mostra o que achou e sai com 0 (padrão até 17/11/2026)
+# MODO=bloqueio mostra o que achou e sai com 1 (padrão a partir de 18/11/2026)
 set -u
 cd "$(dirname "$0")/.."
 LISTA="${LISTA:-_comum/termos-de-marca.md}"
 ALVO="${1:-.}"
-MODO="${MODO:-aviso}"
+if [ "$(date +%Y%m%d)" -ge 20261118 ]; then MODO="${MODO:-bloqueio}"; else MODO="${MODO:-aviso}"; fi
+
+if [ ! -e "$ALVO" ]; then
+  echo "Busca de marca: $ALVO não existe. Nada foi conferido." >&2
+  exit 2
+fi
 
 termos=$(sed -n '/<!-- termos:inicio -->/,/<!-- termos:fim -->/p' "$LISTA" | grep -v '<!--' | sed '/^\s*$/d')
 excecoes=$(sed -n '/<!-- excecoes:inicio -->/,/<!-- excecoes:fim -->/p' "$LISTA" | grep -v '<!--' | sed '/^\s*$/d')
