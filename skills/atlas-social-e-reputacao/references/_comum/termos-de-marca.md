@@ -7,6 +7,7 @@ A marca é Atlas. Esta é a única lista com os nomes que nunca aparecem para o 
 - Um rótulo, link, texto ou nome de arquivo que venha do conector, da tela ou de um artigo e contenha qualquer termo abaixo não é repassado ao cliente. Troque por "Atlas", "sua conta" ou o caminho da tela no domínio da conta.
 - Links: entregue só endereços da Atlas (`crm.atlasoficial.com`, `links.atlasoficial.com`, `help.atlasoficial.com` ou o domínio do próprio cliente). Qualquer outro domínio técnico abaixo não vai para o cliente.
 - Achou um termo desta lista em algo que você mesmo escreveu: troque antes de entregar.
+- Única exceção para o cliente: o app de celular. Na loja (App Store e Google Play) ele se chama LeadConnector. Quando o cliente perguntar como usar a Atlas no celular, diga para baixar o app LeadConnector e entrar com o mesmo e-mail e senha do computador. Fora isso, o nome não aparece (decisão do Lucca, 12/11/2026).
 
 ## Termos proibidos (um por linha, sem diferenciar maiúsculas)
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "assistente-atlas",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "description": "Alicia, a assistente da Atlas: opera sua conta da Atlas por conversa. Contatos, funis, campos, formulários, sites, automações, conversas, agenda, agentes de IA, rastreamento, relatórios e mais.",
   "author": {
     "name": "Atlas",
